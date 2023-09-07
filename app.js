@@ -6,7 +6,7 @@
 //   });
 // });
 
-// リスト（ul要素）の子要素であるli要素内の文字列が、黒色から赤色に変化 
+// リスト（ul要素）の子要素であるli要素内の文字列が、黒色から赤色に変化  
 $(function(){
   $('button').on('click', function(){
     $('ul').children().css('color','red');
